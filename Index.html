@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Assets/style.css" type="text/css">
+</head>   
+<body>
+    <div id="section-set">
+        <input type="text" id="main" > <input type="button" value="AC" id="cut" onclick="AC()"><br />
+        <input type="button" value="9" onclick="AddData(9)" class="select" >
+        <input type="button" value="8" onclick="AddData(8)" class="select">
+        <input type="button" value="7" onclick="AddData(7)" class="select" >
+        <input type="button" value="+" onclick="AddData('+')" class="dull">
+        <br />
+        <input type="button" value="6" onclick="AddData(6)" class="select">
+        <input type="button" value="5" onclick="AddData(5)" class="select">
+        <input type="button" value="4" onclick="AddData(4)" class="select">
+        <input type="button" value="-" onclick="AddData('-')" class="dull">
+        <br />
+        <input type="button" value="3" onclick="AddData(3)" class="select">
+        <input type="button" value="2" onclick="AddData(2)" class="select">
+        <input type="button" value="1" onclick="AddData(1)" class="select">
+        <input type="button" value="*" onclick="AddData('*')" class="dull">
+        <br />
+        <input type="button" value="0" onclick="AddData(0)" class="select">
+        <input type="button" value="." onclick="AddData('.')" class="select">
+        <input type="button" value="dlt" onclick="Dlt()" id="dlt">
+        <input type="button" value="/" onclick="AddData('/')" class="dull"><br />
+        <input type="button" value="=" onclick="calt()" id="equal">
+    </div>
+</body>
+<script src="./Assets/App.js">
+
+</script>
+</html>

@@ -1,0 +1,58 @@
+#section-set{
+    margin: 200px;
+    margin-left: 500px;
+}
+.select{
+    color: white;
+    background-color: black;
+    margin: 3px;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+.dull{
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#equal{
+    width: 40ex;
+    margin-left: 3px;
+    margin-top: 5px;
+    height: 35px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#dlt{
+    width: 60px;
+    height: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background-color: darkmagenta;
+    color: white;
+    cursor: pointer;
+}
+#cut{
+    background-color: brown;
+    color: white;
+    border-radius: 5px ;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+#main{
+    width: 32ex;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: wheat;
+    color: darkblue;
+}
